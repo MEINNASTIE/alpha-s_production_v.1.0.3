@@ -1,0 +1,20 @@
+{
+    "status": "STATUS",
+    "data": "DATA",
+    "settings": "SETTINGS",
+    "factory": "FACTORY",
+    "username": "Username",
+    "battery_status": "Status",
+    "about": "ABOUT",
+    "battery_low": "Battery Low",
+    "actual": "Actual",
+    "statistic": "Statistic",
+    "device": "Device",
+    "time": "Time",
+    "mode": "Mode",
+    "file": "File",
+    "experiment_number": "Experiment No.",
+    "dataset_number": "Dataset No.",
+    "time_to_next_Radon_value_(sec)": "Time to next Radon value (sec)",
+    "log_out": "Log Out"
+}

@@ -1,3 +1,5 @@
+/*! js-cookie v3.0.5 | MIT */
+
 /**
  * @license React
  * use-sync-external-store-shim.production.min.js

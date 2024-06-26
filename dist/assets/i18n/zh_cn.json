@@ -1,0 +1,21 @@
+{
+    "status": "状态",
+    "data":  "数据",
+    "settings": "设置",
+    "factory": "工厂",
+    "username": "用戶名",
+    "battery_status": "电池状态",
+    "about": "关于",
+    "battery_low": "电池低电量",
+    "actual": "实际",
+    "statistic": "统计",
+    "device": "设备",
+    "time": "时间",
+    "mode": "模式",
+    "file": "文件",
+    "experiment_number": "实验编号",
+    "dataset_number": "数据集编号",
+    "time_to_next_Radon_value_(sec)": "下一个氡值时间（秒)",
+    "log_out": "退出"
+}
+
