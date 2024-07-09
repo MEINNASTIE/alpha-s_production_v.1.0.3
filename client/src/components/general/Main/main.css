@@ -1,0 +1,142 @@
+.table_actual {
+    background-color: var(--BLUE);
+    padding: 10px;
+    font-family: 'CenturyGothic_bold';
+    border-radius: 5px;
+    border: 1px solid var(--WHITE);
+    /* -webkit-box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); 
+	box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); */
+    font-size: 28px;
+    padding: 20px 10px;
+    width: 410px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table_actual_statistic {
+    background-color: var(--BLUE);
+    font-family: 'CenturyGothic_bold';
+    border-radius: 10px;
+    border: 1px solid var(--WHITE);
+    /* -webkit-box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); 
+	box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); */
+    font-size: 28px;
+    padding: 20px 30px;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table_actual_statistic table td {
+    padding: 10px 10px;
+}
+.table_actual_second {
+    background-color: var(--BLUE);
+    padding: 10px;
+    font-family: 'CenturyGothic_bold';
+    border-radius: 5px;
+    border: 1px solid var(--WHITE);
+    /* -webkit-box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); 
+	box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); */
+    font-size: 18px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+}
+td {
+    background-color: var(--WHITE);
+    color: var(--BLACK);
+    border-radius: 3px;
+    -webkit-box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); 
+	box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3);
+    padding: 5px 15px;
+}
+table {
+    border-spacing: 10px;
+}
+
+@media (min-width: 308.98px) and (max-width: 575.98px) { 
+    .table_actual {
+        font-size: 20px;
+        width: 340px;
+        padding: 0;
+    }
+    .table_actual_statistic {
+        font-size: 20px;
+        width: 340px;
+        padding: 0;
+    }
+    .table_actual table {
+        width: 90%;
+    }
+    .table_actual_second table {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .table_actual_second {
+        font-size: 14px;
+        padding: 0 10px;
+        width: 320px;
+    }
+    .table_actual_second td:first-child {
+        width: 120px;
+    }
+    .table_actual_second td:last-child {
+        overflow: scroll;
+        text-overflow: clip;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .table_actual {
+        font-size: 20px;
+        width: 600px;
+        padding: 0;
+    }
+    .table_actual_statistic {
+        font-size: 20px;
+        width: 390px;
+        padding: 0;
+    }
+    .table_actual table {
+        width: 90%;
+    }
+    .table_actual_second table {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .table_actual_second {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    .table_actual_second td:first-child {
+        width: 250px;
+    } 
+    .table_actual_second td:last-child {
+        overflow: scroll;
+        text-overflow: clip;
+    }
+}
+
+/* Medium devices (laptops) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .table_actual {
+        font-size: 20px;
+        width: 100%;
+        padding: 40px 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .table_actual {
+        font-size: 20px;
+        width: 100%;
+        padding: 0px 20px;
+        font-size: 24px;
+    }
+    .table_actual_second {
+        font-size: 16px;
+    }
+}

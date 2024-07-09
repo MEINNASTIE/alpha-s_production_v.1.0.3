@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "user": "admin",
+      "password": "1234",
+      "role": 0
+    },
+    {
+      "id": "2",
+      "user": "Factory",
+      "password": "NBNH_4_BERTIN@GmbH",
+      "role": 2
+    },
+    {
+      "id": "3",
+      "user": "Berndhardt",
+      "password": "hello",
+      "role": 1
+    },
+    {
+      "id": "4",
+      "user": "Mia",
+      "password": "222",
+      "role": 1
+    }
+  ]
+}

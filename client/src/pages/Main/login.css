@@ -1,0 +1,223 @@
+/* Login page */
+.inside_home {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 40px;
+}
+.home {
+	background-color: var(--BLUE);
+	padding: 10px;
+	border-radius: 10px;
+	width: 600px;
+	height: 600px;
+	border: 1px solid var(--WHITE);
+	/* -webkit-box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); 
+	box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); */
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 40px;
+}
+.login {
+	text-align: left;
+    padding: 20px 100px 0 100px;
+	line-height: 2;
+	color: white;
+	font-size: 22px;
+}
+.login_home h1 {
+	font-size: 34px;
+	padding: 10px;
+	font-family: 'CenturyGothic_bold';
+}
+.login_home h3 {
+	font-size: 18px;
+	margin: 0 60px 0 60px;
+}
+.login input {
+	background-color: var(--WHITE);
+	outline: none;
+	border: 1px solid var(--BLACK);
+	-webkit-box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); 
+	box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3);
+	border-radius: 5px;
+	color: var(--BLACK);
+	transition: outline 0.3s ease-in-out;
+}
+.login input:hover {
+	outline: 2px solid var(--WHITE);
+}
+.login_input {
+	display: flex;
+	flex-direction: column;
+}
+.login_input:first-child {
+	padding-bottom: 20px;
+}
+.submit {
+	background-color: var(--LIGHT_GREY);
+	border: none;
+	padding: 8px;
+	border-radius: 5px;
+	-webkit-box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); 
+	box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3);
+	width: 50%;
+	margin-top: 40px;
+	font-family: 'CenturyGothic_bold';
+	transition: 0.3s ease-in-out;
+	font-size: 20px;
+}
+.submit:hover {
+	background-color: var(--DARK_GREY);
+	cursor: pointer;
+}
+.submit_button {
+	display: flex;
+	justify-content: center;
+}
+a {
+	color: var(--WHITE);
+	text-decoration: none;
+}
+/* Alternative Login page */
+.table_actual_alternative {
+	background-color: var(--BLUE);
+    padding: 10px;
+    font-family: 'CenturyGothic_bold';
+    border-radius: 5px;
+    border: 1px solid var(--WHITE);
+    /* -webkit-box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); 
+	box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); */
+    font-size: 32px;
+    padding: 20px 10px;
+    width: 440px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td {
+    background-color: var(--WHITE);
+    color: var(--BLACK);
+    border-radius: 3px;
+    -webkit-box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3); 
+	box-shadow: 4px 5px 4px 0px rgba(80,80,80,0.3);
+    padding: 5px 15px;
+}
+table {
+    border-spacing: 10px;
+}
+@media (min-width: 308.98px) and (max-width: 575.98px) { 
+	.inside_home {
+		flex-direction: column;
+	}
+	.login {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .login_home h1 {
+        font-size: 24px;
+        padding: 5px; 
+    }
+    .login_home h3 {
+        font-size: 14px;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .home {
+        margin: 40px 10px 0 10px;
+		width: 310px;
+    }
+    .submit {
+        font-size: 16px;
+    }
+	.table_actual_alternative {
+		width: 310px;
+		font-size: 20px;
+		height: 250px;
+	}
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.inside_home {
+		flex-direction: column;
+	}
+	.login {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .login_home h1 {
+        font-size: 24px;
+        padding: 5px; 
+    }
+    .login_home h3 {
+        font-size: 14px;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .home {
+        margin: 40px 10px 0 10px;
+		width: 610px;
+		height: 580px;
+    }
+    .submit {
+        font-size: 16px;
+    }
+	.table_actual_alternative {
+		width: 610px;
+		font-size: 26px;
+		height: 250px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.inside_home {
+		flex-direction: column;
+	}
+	.login {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .login_home h1 {
+        font-size: 24px;
+        padding: 5px; 
+    }
+    .login_home h3 {
+        font-size: 14px;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .home {
+        margin: 40px 10px 0 10px;
+		width: 610px;
+		height: 580px;
+    }
+    .submit {
+        font-size: 16px;
+    }
+	.table_actual_alternative {
+		width: 610px;
+		font-size: 26px;
+		height: 250px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.home {
+		height: 680px;
+	}
+	.inside_home {
+		margin-right: 30px;
+		gap: 5px;
+	}
+	.login {
+		font-size: 16px;
+	}
+	.table_actual_alternative {
+		width: 310px;
+		font-size: 20px;
+		height: 250px;
+	}
+}
