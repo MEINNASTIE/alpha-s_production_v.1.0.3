@@ -123,6 +123,7 @@
     "old_pass": "旧密码",
     "confirm_new_pass": "确认新密码",
     "submit": "提交",
-    "device_frontend_initialized": "设备已成功初始化"
+    "device_frontend_initialized": "设备已成功初始化",
+    "access_denied": "拒绝访问。"
 }
 

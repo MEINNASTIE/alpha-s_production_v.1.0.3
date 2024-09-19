@@ -124,5 +124,6 @@
     "old_pass": "Old Password",
     "confirm_new_pass": "Confirm New Password",
     "submit": "Submit",
-    "device_frontend_initialized": "Device was successfully initialized"
+    "device_frontend_initialized": "Device was successfully initialized",
+    "access_denied": "Access denied."
 }
