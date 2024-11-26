@@ -125,5 +125,6 @@
     "confirm_new_pass": "Neues Passwort bestätigen",
     "submit": "Senden",
     "device_frontend_initialized": "Das Gerät wurde erfolgreich initialisiert",
-    "access_denied": "Zugriff verweigert."
+    "access_denied": "Zugriff verweigert.",
+    "current_time": "Aktuelle Zeit"
 }

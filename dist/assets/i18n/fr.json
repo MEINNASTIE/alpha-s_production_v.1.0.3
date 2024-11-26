@@ -125,5 +125,6 @@
     "confirm_new_pass": "Confirmer le nouveau mot de passe",
     "submit": "Soumettre",
     "device_frontend_initialized": "L'appareil a été initialisé avec succès",
-    "access_denied": "Accès refusé."
+    "access_denied": "Accès refusé.",
+    "current_time": "Heure actuelle"
 }

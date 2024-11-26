@@ -124,6 +124,7 @@
     "confirm_new_pass": "确认新密码",
     "submit": "提交",
     "device_frontend_initialized": "设备已成功初始化",
-    "access_denied": "拒绝访问。"
+    "access_denied": "拒绝访问。",
+    "current_time": "当前时间"
 }
 

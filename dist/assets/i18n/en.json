@@ -125,5 +125,6 @@
     "confirm_new_pass": "Confirm New Password",
     "submit": "Submit",
     "device_frontend_initialized": "Device was successfully initialized",
-    "access_denied": "Access denied."
+    "access_denied": "Access denied.",
+    "current_time": "Current time"
 }
