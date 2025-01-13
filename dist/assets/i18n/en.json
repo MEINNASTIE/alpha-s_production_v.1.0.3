@@ -81,7 +81,7 @@
     "load_settings_from_a_file": "Load settings from a file",
     "clear_data_memory": "Clear data memory",
     "initialize_data_memory": "Initialize data memory",
-    "start_firmware_update": "Initialize data memory",
+    "start_firmware_update": "Start firmware update",
     "default_settings": "Default settings",
     "reset_alpha-s": "Reset Alpha-S",
     "name": "Name",
