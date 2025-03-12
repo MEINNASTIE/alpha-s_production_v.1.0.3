@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Upload & Reload Dist</title>
+    <script>
+        async function uploadDist() {
+            const formData = new FormData();
+            const fileInput = document.getElementById("file-upload");
+            formData.append("file", fileInput.files[0]);
+
+            const response = await fetch('http://localhost:5000/upload-dist', {
+                method: 'POST',
+                body: formData
+            });
+
+            const data = await response.json();
+            alert(data.message || data.error);
+        }
+
+        async function reloadDist() {
+            const response = await fetch('http://localhost:5000/reload-dist', {
+                method: 'POST'
+            });
+
+            const data = await response.json();
+            alert(data.message);
+        }
+    </script>
+</head>
+<body>
+    <h1>Upload and Reload Dist</h1>
+
+    <!-- File Upload Section -->
+    <h3>Upload Dist Folder (ZIP File)</h3>
+    <input type="file" id="file-upload" accept=".zip">
+    <button onclick="uploadDist()">Upload Dist</button>
+
+    <hr>
+
+    <!-- Reload Section -->
+    <h3>Reload Dist Folder</h3>
+    <button onclick="reloadDist()">Reload Dist</button>
+</body>
+</html>
