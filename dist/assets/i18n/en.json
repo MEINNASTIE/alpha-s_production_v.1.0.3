@@ -102,6 +102,7 @@
     "free_data_memory": "Free data memory",
     "battery_status_device": "Battery status",
     "nofiles": "No files present",
+    "no_experiments_to_display": "No experiments to display",
     "edit": "Edit",
     "update": "Update",
     "exit": "Exit",
